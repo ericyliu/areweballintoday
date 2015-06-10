@@ -2,6 +2,9 @@ extends layout
 
 block content
   h1= title
-  p.ballin= ballin
-  p.time= time
+  if ballin
+    p.ballin.yes= "Yes"
+    p.time= time
+  else
+    p.ballin.no= "No"
   h2.quote Ball Is Love
