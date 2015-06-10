@@ -6,3 +6,34 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.ballin {
+  font-size: 100px;
+}
+
+.ballin.yes {
+  color: green;
+}
+
+.ballin.no {
+  color: red;
+}
+
+.time {
+  font-size: 40px;
+}
+
+.quote {
+  color: pink;
+  padding-top: 100px;
+}
+
+
