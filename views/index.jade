@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  if ballin
+  if status == "true"
     p.ballin.yes= "Yes"
     p.time= time
   else
